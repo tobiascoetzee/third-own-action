@@ -1,7 +1,5 @@
 name: Issues print
-on:
-  issues:
-    types: opened
+on: issues
 jobs:
   output:
     runs-on: ubuntu-latest
